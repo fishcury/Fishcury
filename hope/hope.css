@@ -1,0 +1,267 @@
+<style>
+            *{
+				margin: 0;
+				padding: 0;
+			}
+			#donate{
+				color: #FB1A00;
+				font-size: 25px;
+			}
+			body{
+				text-align: center;
+			}
+			.wrapper{
+				width: 1170px;
+				margin-left: 130px;
+			}
+			.logo{
+				background: cover;
+				top: 0;
+				width: 30%;
+				float: left;
+				line-height: 70px;
+			}
+			.logo a{
+				text-decoration: none;
+				font-size: 40px;
+				color: #fff;
+				letter-spacing: 5px;
+			}
+			nav{
+				background: cover;
+				top: 0;
+				float: right;
+				line-height: 70px;
+				margin-right: 70px;
+			}
+			nav a{
+				text-decoration: none;
+				letter-spacing: 4px;
+				margin: 0 10px;
+				color: #fff;
+			}
+			.ppp{
+				width: 100%;
+				hieght: 600px;
+				position: fixed;
+				top: 90px;
+				background-image: url(2.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.ppp h20{
+				color: #fff;
+				float: left;
+				margin-bottom: 500px;
+				margin-left: 50px;
+				padding-top: 8%;
+				font-size: 50px;
+				text-transform: uppercase;
+			}
+			.content-area{
+				position: relative;
+				width: 110%;
+				top: 450px;
+				background: #FCFBFB;
+				
+			}
+            header{
+				hieght: 100px;
+				width: 100%;
+				z-index: 12;
+				position: fixed;
+				background: #08920F;
+            }
+            .body{
+                 border-left: 50px;
+                border-left-color: #DADAD8;
+                border-left-style: solid;
+            }
+            .body{
+                 border-right: 50px;
+                border-right-color: #DADAD8;
+                border-right-style: solid;
+            }
+            .body{
+                 border-bottom: 10px;
+                border-bottom-color: forestgreen;
+                border-bottom-style: ;
+            }
+            a{
+                text-decoration: none;
+            }
+            .SHOW YOUR HUMANITY{
+                width: 96%;
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 0 2%;
+                font-weight: 300
+            }
+            header{
+                background-color: #08920F;
+                padding: 0px 0;
+                padding-bottom: 13px;   
+            }
+            header:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+            .head{
+                list-style-type: none;
+                font-weight: 300;
+                font-size: 17px;
+            }
+            #donate2{
+                list-style-type: none;
+                font-weight: 300;
+                font-size: 33px;
+            }
+            #donate2 a{
+                color: orangered;
+            }
+            .aboutus{
+                font-size: 33px;
+            }
+            .aboutus{
+                margin-top: 10%;
+            }
+            .aboutus li{
+                list-style-type: none;
+                text-align: center;
+            }
+             #projects{
+                padding-top: 30px;
+                margin-top: 30px;
+            } 
+            #projects li{
+                float: left; 
+                width: 32%;
+                list-style-type: none;
+            }
+            h2{
+                font-size: 33px;
+                font-weight: 300;
+            }
+            h3{
+               font-size: 33px;
+                font-weight: 300; 
+              
+                
+            }
+            h4{
+                font-size: 33px;
+                font-weight: 300;
+                margin-top: 25px;
+               
+            }
+            #projects p{
+                 font-size: 22px;
+                font-weight: 300;
+            }
+            #project1 a{
+                color: blue;
+            }
+            #project2 a{
+                color: blue;
+            }
+            #project3 a{
+                color: blue;
+            }
+            h9{
+                font-size: 25px;
+            }
+            h8{
+                margin-left: 5%;
+                margin-bottom: 5%;
+                font-size: 33px;
+            }
+            h7{
+                font-size: 22px;
+            }
+            h6{
+                font-size: 22px;
+            }
+            h5{
+                font-size: 22px;
+            }
+            table li{
+                list-style-type: none;
+            }
+            table li a{
+                text-decoration: none;
+                color: black;
+            }
+            .footer3 li a{
+                border-top: 5% forestgreen;
+                color: orangered;
+                font-size: 22px;
+            }
+            .table1{
+                border-top: 5% forestgreen;
+                margin-top: 5%;
+                margin-left: 10%;
+            }
+            .table2{
+                margin-top: 2%;
+                margin-left: 10%;
+            }
+            table p{
+                font-size: 20px;
+            }
+        footer{
+            border-top: 20px solid forestgreen;
+            background-color: white;
+            border-bottom: 20px solid white;
+        }
+            #p{   
+                font-style: oblique;
+                font-size: 15px;
+            }
+            .ul li{
+                margin-right: 3%;
+                float: right;
+            }
+            li{
+                list-style-type: none;
+            }
+            #projects{
+                padding-top: 30px;
+                margin-top: 30px;
+            } 
+            #projects li{
+                float: left; 
+                width: 32%;
+                list-style-type: none;
+            }
+            h2{
+                font-size: 33px;
+                font-weight: 300;
+            }
+            h3{
+               font-size: 33px;
+                font-weight: 300;
+            }
+            h4{
+                font-size: 33px;
+                font-weight: 300;
+                margin-top: 25px;
+            }
+            #projects p{
+                 font-size: 22px;
+                font-weight: 300;
+            }
+            #project1 a{
+                color: blue;
+            }
+            #project2{
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            #project2 a{
+                color: blue;
+            }
+            #project3 a{
+                color: blue;
+            }
+        </style>

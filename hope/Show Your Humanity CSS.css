@@ -1,0 +1,192 @@
+<style>
+
+
+/*Style All Starts*/
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+			
+			*{
+				margin:0;
+				padding:0;
+			}
+
+			
+			html{
+				font-size: 6.25%;
+			}
+
+
+			@media(max-width: 998px) {
+				html{
+					font-size: 40%;
+				}
+			}
+
+			
+			body{
+				margin-top: 0rem;
+				margin-left: 0rem;
+				margin-right: 0rem;
+				margin-bottom: 0rem;
+				font-family: 'Akaya Kanadaka', cursive;
+				text-align: center;
+			}
+			
+			
+			.all a{
+				text-decoration: none;
+			}
+
+
+/*Style All Ends*/
+
+
+/*Style Header Starts*/
+
+
+			.logo{
+				top: 0;
+				background-color: #0465BA;
+				background: cover;
+				width: 470rem;
+				float: left;
+				line-height: 70rem;
+			}
+
+
+			.logo a{
+				text-decoration: none;
+				font-size: 30rem;
+				color: whitesmoke;
+				letter-spacing: 1rem;
+			}
+
+
+			nav{
+				top: 0;
+				display:flex;
+				justify-content: space-around;
+				align-items: center;
+				background-color: #0465BA;
+				background: cover;
+				width: 1280rem;
+				position: fixed;
+				line-height: 70rem;
+			}
+
+
+			nav a{
+				margin: 10rem;
+				font-size: 15rem;
+				text-decoration: none;
+				letter-spacing: 2rem;
+				color: whitesmoke;
+			}
+			nav .hover a:hover{
+				font-weight: bold;
+				border-bottom:2rem black solid;
+				transition: all 0.5s linear;
+				color: black;
+			}
+			.header_donate{
+				color: orangered;
+				font-size: 25rem;
+				margin-left: 10rem;
+			}
+
+/*Style Header Starts*/
+
+
+            .banner {
+				float: left;
+				width: 1270rem;
+				height: 500rem;
+				top: 90rem;
+				background-image: url(2.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			h1{
+				border-radius: 100rem;
+				color: black;
+				float: left;
+				font-size: 30rem;
+				margin-bottom: 200rem;
+				margin-left: 50rem;
+				padding-top: 110rem;
+				font-size: 50rem;
+			}
+
+
+/*Style Banner Starts*/
+
+
+/*Style Donate Section Starts*/
+
+			
+			.donate_section{
+				text-align: center;
+			}
+			
+			
+			h2{
+				font-size: 30rem;
+			}
+			 
+			 
+			#donate a{
+				color: orangered;
+				font-size: 20rem;
+			}
+
+
+/*Style Donate Section Ends*/
+
+
+/*Style Projects Starts*/
+
+
+            .projects{
+				margin-top: 20rem;
+				justify-content: space-around;
+				align-items: center;
+				display: flex;
+				font-size: 20rem;
+            }
+			
+			.project1_container{
+				float: left;
+			}
+			
+			.project2_container{
+				fot: center;
+			}
+			
+			.projects3_container{
+				float: right;
+			}
+			
+			.projects p{
+				font-size: 20rem;
+			}
+			
+			h3{
+				margin: 0rem;
+				font-size: 30rem;
+			}
+			
+			h4{
+				margin: 0rem;
+				font-size: 30rem;
+			}
+			
+			h5{
+				margin: 0rem;
+				font-size: 30rem;
+			}
+
+
+/*Style Projects Ends*/
+</style>
