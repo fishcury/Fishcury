@@ -19,41 +19,41 @@ a{
 
 @keyframes bgimage {
   0% {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/IMG-20230418-WA0037.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/1.jpg);
     background-size: 100vw;
     background-position: center;
     background-size: cover;
   }
 
   20% {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/Screenshot\ 2023-10-09\ 003747.png);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/2.png);
     background-size: 100vw;
     background-position: center;
     background-size: cover;
   }
 
   40% {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/45-o.png);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/3.png);
     background-size: 100vw;
     background-position: center;
     background-size: cover;
   }
 
   60% {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/genos\ death\ .jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/4.jpg);
     background-size: 100vw;
     background-position: center;
     background-size: cover;
   }
 
   80% {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/Screenshot\ 2023-10-11\ 011157.png);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/5.png);
     background-size: 100vw;
     background-position: center;
     background-size: cover;
   }
   100% {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/WhatsApp\ Image\ 2022-11-16\ at\ 02.04.20.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.5)), url(images/Background/6.jpg);
     background-size: 100vw;
     background-position: center;
     background-size: cover;
