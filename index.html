@@ -11,6 +11,7 @@
   <!--header and navigation starts-->
 
     <header>
+        <div class="overlay">
 
       <nav>
         <a href="https://www.instagram.com/fish_cury" target="_blank" id="logo">@fish_cury</a>
@@ -42,6 +43,7 @@
         </div>
       </div>
 
+      </div>
       
     </header>
 
@@ -67,7 +69,7 @@
   <!-- About -->
     <section class="about" id="about">
         <div class="about_img">
-        <img src="images/pfp_zoom.jpg" alt="">
+        <img src="images/pfp_zoom.jpg" class="center">
         </div>
         <div class="about_text">
           <h1>Inside of my head</h1>
@@ -122,7 +124,7 @@
 
 
           <div class="footer_contact">
-            <h2>Contact Me</h2> 
+            <h3>Contact Me</h3> 
             <div class="line"></div>
               <a href="https://www.instagram.com/fish_cury" target="_blank">Instagram</a>
               <a href="https://discord.gg/swSa9yrf" target="_blank">Discord</a>
@@ -130,7 +132,7 @@
           </div >
 
           <div class="footer_projects">
-            <h2>My Projects</h2>
+            <h3>My Projects</h3>
             <div class="line"></div>
                <a href="Priesha Website/index.html" target="_blank">Website1</a>   
                <a href="Mine/index.html" target="_blank">Website2</a>   
@@ -139,7 +141,7 @@
           </div>
           
           <div class="footer_pages">
-            <h2>Pages</h2>
+            <h3>Pages</h3>
             <div class="line"></div>
                <a href="#about">About me</a>   
                <a href="#projects">My Projects</a>    
@@ -158,25 +160,24 @@
     <!-- Footer -->
 
      <script type="text/javascript" >
+        document.addEventListener('DOMContentLoaded', () => {
+            const btn = document.querySelector("#btn");
+            const mobNav = document.querySelector(".nav_links");
+            const nav = document.querySelector("nav");
 
-      let btn = document.querySelector("#btn");
-      let mobNav = document.querySelector(".nav_links");
-      let nav2 = document.querySelector("nav");
-      var nav = document.querySelector("nav");
-      var body = document.querySelector("body")
+            
+            window.addEventListener("scroll", function(){
+            nav.classList.toggle('fixed', window.scrollY > 100);
+            });
 
-      
-     window.addEventListener("scroll", function(){
-      nav.classList.toggle('fixed', window.scrollY > 100);
-    });
-
-      btn.onclick = function(){
-        mobNav.classList.toggle('open');
-        if(window.scrollY < 100){
-        nav2.classList.toggle('fixed');
-    }
-        body.classList.toggle('scroll_off');
-      };
+            btn.onclick = function(){
+                mobNav.classList.toggle('open');
+                if(window.scrollY < 100){
+                nav.classList.toggle('fixed');
+            };
+                document.body.classList.toggle('scroll_off');
+            };
+        });
 
 
     </script>
