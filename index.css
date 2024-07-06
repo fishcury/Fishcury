@@ -176,7 +176,7 @@ h2{
 
 /* common code */
 
-.section1 a, .about a, .view_btn, .section2 a{
+.section1 a , .about a , .view_btn , .section2 a{
     background-color: #181818;
     border: 1px solid #fff;
     padding: 10px 20px;
@@ -245,6 +245,7 @@ h2{
 }
 .about a{
     margin-left: 5px;
+    padding: 10px 20px;
 }
 .about h1{
     margin-bottom: 5px;
@@ -270,12 +271,16 @@ h2{
     flex-direction: column;
     background-color: #1818182b;
     padding: 30px 20px;
-    font-family:'Poppins', sans-serif;
 }
 .projects h2{
     color: #000;
     font-size: 40px;
     font-weight: 700;
+    font-family:'Poppins', sans-serif;
+}
+.view_btn{
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 .projects-img{
     display: flex;
@@ -287,6 +292,7 @@ h2{
     border-style: solid;
     border-radius: 5px;
     border-color: #fff;
+    margin: 10px 0px;
 }
 
 
@@ -307,6 +313,7 @@ h2{
     font-size: 30px;
     font-family:'Poppins', sans-serif;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 /* sad end */
 
