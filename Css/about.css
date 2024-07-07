@@ -1,0 +1,28 @@
+.expand_about, .expand_about p{
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.expand, .expand p{
+    height: fit-content;
+    opacity: 1;
+    overflow: visible;
+}
+.about_page{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#f0f0f0e0);
+}
+
+*{
+    transition: 0.5s;
+}
+
+.collapse > *, .collapse{
+    padding: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
