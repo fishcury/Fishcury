@@ -1,0 +1,279 @@
+
+/* header */
+
+*{
+    -webkit-font-smoothing: antialiased;
+}
+
+@keyframes bgimage {
+    0% { background-image: url(../images/Background/1.jpg) ;}
+    20% { background-image: url(../images/Background/2.jpeg) ; }
+    40% { background-image: url(../images/Background/3_mob.jpeg) ;}
+    60% { background-image: url(../images/Background/4.jpg) ; }
+    80% { background-image: url(../images/Background/5.jpeg) ; }
+    100% { background-image: url(../images/Background/6.jpg) ; }
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    animation: bgimage 30s infinite alternate ease;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 0.8s;
+    width: 100%;
+    height: 55px;
+}
+.mob_nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3.8px;
+    padding: 15px 25px;
+}
+nav a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav_open_btn div{
+    background-color: #fff;
+    height: 1.5px;
+    margin: 5px;
+    width: 40px;
+    transition: 0.5s;
+}
+.nav_close_btn .nav1{
+    transform: translateY(6.5px);
+}
+.nav_close_btn .nav3{
+    transform: translateY(-6.5px);
+}
+.nav_open_btn{
+    cursor: pointer;
+    padding: 15px 25px;
+    float: right;
+}
+.nav_links{
+    opacity: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: all 0.6s;
+    padding-top: 10px;
+}
+.nav_links a,.nav_links h2,.nav_links p, .top_title div{
+    transition: 0.5s ease;
+    color: #fff;
+    opacity: 0;
+    overflow: hidden;
+    font-family: "NB International", "Arial", sans-serif;
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 500;
+    padding: 0px 25px;
+}
+.contact{
+    margin-top: 30px;
+}
+.top_title{
+    padding: 0px 25px;
+    margin: 8.3px 0;
+    display: flex;
+    align-items: center;
+}
+.contact_link{
+    padding: 20px 0;
+}
+.contact_link a:last-child{
+    padding: 0;
+}
+.top_title div{
+    clip-path: ellipse();
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    padding: 0;
+}
+.nav_links h2{
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.nav_links p{
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+.contact a{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+
+.fixed{
+    background-color: #181818;
+}
+.open{
+    transition: 0.6s;
+    height: 100%;
+    background-color: #181818;
+}
+.open a,.open h2,.open p, .open div{
+    opacity: 1; 
+    overflow: visible;
+}
+.open #logo{
+    font-size: 10px;
+}
+.scroll_off{
+    overflow: hidden;
+}
+
+
+.banner{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    width: 90vw;
+}
+.heading h1, .heading h2, .heading p, .heading a {
+    color: #fff;
+    margin-left: 5px;
+}
+.heading p{
+    font-size:15px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+.heading a{
+    border: none;
+}
+header h1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+}
+.banner h2{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+/* header end */
+
+
+
+/* footer */
+
+footer{
+    padding: 30px 0px;
+    background-color: #181818;
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+}
+footer a{
+    padding: 10px 10px;
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 500;
+    padding: 0px 25px;
+}
+footer p{
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    padding: 0px 25px;
+} 
+.footer_logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer h2{
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.footer_logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.footer_contact{
+    margin-top: 30px;
+}
+
+.footer_top_title{
+    padding: 0px 25px;
+    margin: 8.3px 0;
+    display: flex;
+    align-items: center;
+}
+.footer_contact_link{
+    padding: 20px 0;
+}
+.footer_contact_link a:last-child{
+    padding: 0;
+}
+.footer_top_title div{
+    clip-path: ellipse();
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    padding: 0;
+}
+
+
+.footer_contact a{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+

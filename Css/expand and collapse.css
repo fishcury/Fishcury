@@ -1,0 +1,13 @@
+
+.collapse > *, .collapse{
+    padding: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.expand, .expand > *{
+    height: fit-content;
+    opacity: 1;
+    overflow: visible;
+}

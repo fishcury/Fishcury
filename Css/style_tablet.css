@@ -1,0 +1,57 @@
+
+
+@media only screen and (min-width:500px){
+    svg{
+        display: none;
+    }
+    .nav_links{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        height: auto;
+        width: 70%;
+        position:initial;
+    }
+    .nav_links a{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    .section1 h2{
+        font-size: 40px;
+    }
+    
+    .about img{
+        height: 80%;
+        width: 70%;
+        border-radius: 100%;
+    }
+    .about{
+        display: flex;
+        align-items: center;
+    }
+    .about_text{
+        width: 90%;
+    }
+    .projects-img img{
+        height: 45%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .footer_contact{
+        width: 33%;
+    }
+    .footer_projects{
+        width: 33%;
+        
+        margin-top: 20px;
+    }
+    .footer_pages{
+        width: 33%;
+    }
+
+ }

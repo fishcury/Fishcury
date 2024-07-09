@@ -1,0 +1,97 @@
+.expand{
+    padding: 25px 20px;
+}
+.expand #section1_scroll{
+    padding: 15px;
+}
+.expand .section1_text{
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.expand .expand_section1 h2{
+    margin: 0;
+    color: #000;
+}
+.expand .expand_section1 div:last-child{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffffeb;
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+.expand h2{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3.8px;
+    margin-bottom: 30px;
+    opacity: 1;
+    align-self: center;
+    overflow: visible;
+    height: fit-content;
+}
+.expand h3{
+    transition: 0.5s ease;
+    color: #fff;
+    font-family: "NB International", "Arial", sans-serif;
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 500;
+    padding: 0px;
+    opacity: 1;
+    overflow: visible;
+    height: fit-content;
+}
+.expand svg{
+    height: 50px ;
+    width: 50px ;
+    opacity: 1 ;
+    overflow: visible ;
+    transform: translateY(-18px);
+    z-index: 0;
+}
+.expand .btn{
+    border: none;
+    padding: 0;
+    margin: 0 15px 20px 0;
+    height: 20px;
+    width: 20px;
+}
+.expand .btn svg{
+    height: 20px;
+    width: 20px;
+    transform: translateY(0);
+}
+.expand p{
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.expand_section1 p{
+    height: fit-content;
+    margin: 0 20px 20px 0;
+    font-family: "NB International", "Arial", sans-serif;
+    opacity: 1;
+    overflow: visible;
+}
+.expand_section1 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.expand #section1_heading{
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.expand .section1_dot{
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    margin: 0 20px 0 0;
+}
